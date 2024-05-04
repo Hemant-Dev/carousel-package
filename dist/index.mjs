@@ -1,5 +1,3 @@
-"use strict";
-
 // src/index.ts
 function createSlides(slideId, imgSrc) {
   const carouselItem = document.createElement("div");

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel Tester</title>
+
+    <style>
+      img {
+        height: 200px;
+        width: 400px;
+        text-align: center;
+      }
+      .carousel {
+        position: relative;
+        width: 100%;
+        height: auto; /* Adjust the height as needed */
+        overflow: hidden;
+        height: 500px;
+        width: 500px;
+        margin: auto;
+        background-color: rebeccapurple;
+      }
+
+      .carousel-item {
+        display: none; /* Initially hide all slides */
+      }
+
+      .carousel-item img {
+        width: 100%; /* Ensure images fill the slide container */
+        height: auto; /* Maintain aspect ratio */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div
+      style="background-color: gray; padding: 2rem"
+      class="carousel"
+      id="carousel"
+    >
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          gap: 1rem;
+          align-items: center;
+        "
+        class="carousel-content"
+      >
+        <div class="img">Slides</div>
+      </div>
+    </div> -->
+    <div class="carousel" id="carousel"></div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
