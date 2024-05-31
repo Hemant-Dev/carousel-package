@@ -3,6 +3,7 @@ function createSlides(slideId, imgSrc) {
   const carouselItem = document.createElement("div");
   carouselItem.classList.add("carousel-item");
   carouselItem.id = slideId;
+  carouselItem.style.height = "100%";
   const img = document.createElement("img");
   img.src = imgSrc;
   carouselItem.appendChild(img);
@@ -33,6 +34,10 @@ var carouselData = [
       {
         id: "slide-2",
         imgSrc: "https://mala.ae/wp-content/uploads/2023/02/img.jpg"
+      },
+      {
+        id: "slide-3",
+        imgSrc: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F459225%2Fpexels-photo-459225.jpeg%3Fcs%3Dsrgb%26dl%3Ddaylight-environment-forest-459225.jpg%26fm%3Djpg&f=1&nofb=1&ipt=850d7382bd590ac963b59837020048cbcf6cc66cb8b2f9cdc1727f98b0da7ff4&ipo=images"
       }
     ]
   }
