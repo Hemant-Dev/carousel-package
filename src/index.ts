@@ -134,7 +134,4 @@ function utility() {
   }
 }
 
-module.exports = {
-  carouselData,
-  initializeCarousel,
-};
+export { carouselData, initializeCarousel };
