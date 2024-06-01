@@ -84,7 +84,7 @@ const carouselData = [
   },
 ];
 
-initializeCarousel(carouselData);
+// initializeCarousel(carouselData);
 
 function utility() {
   const slides: HTMLElement[] = Array.from(
@@ -133,3 +133,8 @@ function utility() {
     carousel.addEventListener("mouseleave", startAutoplay);
   }
 }
+
+module.exports = {
+  carouselData,
+  initializeCarousel,
+};

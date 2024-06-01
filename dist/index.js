@@ -44,7 +44,6 @@ var carouselData = [
     ]
   }
 ];
-initializeCarousel(carouselData);
 function utility() {
   const slides = Array.from(
     document.querySelectorAll(".carousel-item")
@@ -76,3 +75,7 @@ function utility() {
     carousel.addEventListener("mouseleave", startAutoplay);
   }
 }
+module.exports = {
+  carouselData,
+  initializeCarousel
+};

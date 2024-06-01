@@ -1,6 +1,6 @@
 {
-  "name": "carousel-package",
-  "version": "1.0.0",
+  "name": "carouselly",
+  "version": "1.0.1",
   "description": "A test for carousel project in typescript.",
   "main": "index.js",
   "module": "dist/index.js",
